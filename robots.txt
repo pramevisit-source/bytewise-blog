@@ -1,0 +1,17 @@
+# ByteWise - robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://bytewise.com/sitemap.xml
+
+# Allow all crawlers access to all content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow admin/system directories (if any)
+Disallow: /admin/
+Disallow: /tmp/
